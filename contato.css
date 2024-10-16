@@ -1,0 +1,124 @@
+body {
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #043e77;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #4682b4;
+    padding: 10px;
+    text-align: center;
+
+}
+.hover-effect {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+.hover-effect:hover {
+    background-color: #1e90ff;
+    color: #000;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #043e77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding: top -100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.sobre{
+    border-radius: 15%;
+    text-align: center;
+    text-decoration: #1e90ff;
+    height: 250px;
+}
+.code{
+    text-align: center;
+    width: 25%;
+    height: 20%;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.email-form {
+    text-align: center  ;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 96%;
+}
+.email-form h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+.email-form label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.email-form input,
+.email-form textarea {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin-bottom:7px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.email-form input[type="submit"] {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1.0s;
+}
+.email-form input[type="submit"]:hover{
+    background-color: #45a049;
+}

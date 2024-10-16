@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #043e77;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #4682b4;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.hover-effect {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hover-effect:hover {
+    background-color: #1e90ff;
+    color: #000;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #043e77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding: top -100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo{
+    border-radius: 50%;
+    border-color:white;
+    height: 25%;
+    width: 25%;
+}
+
+.vaga{
+    border-radius: 7%;
+    width: 400px;
+    padding-top: 0px;
+}
+
+.button{
+background-color: #4CAF50;
+color: rgb(169, 119, 119);
+padding: 15px 32px;
+font-size: 16px;
+border: none;
+border-radius: 12px;
+width: 200px;
+height: 50px;
+text-align: center;
+}
+
+.whatsapp-icon img {
+    width: 5%;
+    height: 5%;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

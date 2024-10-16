@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #043e77;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #4682b4;
+    padding: 10px;
+    text-align: center;
+
+}
+.hover-effect {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+.hover-effect:hover {
+    background-color: #1e90ff;
+    color: #000;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.content {
+    padding: 20px;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #043e77;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+
+}
+.site{
+    color: #043e77;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+.text{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+.video2{
+    text-align: center;
+}
+.video3{
+    text-align: center;
+    padding-top: 3%;
+}
+.text-with-icon {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+.text-with-icon::before {
+    text-align: center;
+    content: "\2192"; /* Código Unicode para seta para a direita */
+    color: blue;
+    margin-right: 8px;
+    font-size: 24px; /* Ajusta o tamanho da seta */
+}
+.two-columns {
+    column-count: 2;
+    column-gap: 0%;
+    padding-top: 1%;
+}
+.title2{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.gerenciamento{
+    text-align: center;
+}
+footer {
+    background-color: #043e77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding: top -100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
